@@ -3,7 +3,7 @@
   "private": true,
   "packageManager": "pnpm@8.1.1",
   "engines": {
-    "node": "19.8.1"
+    "node": "18.16.0"
   },
   "scripts": {
     "build": "nuxt build",
@@ -15,11 +15,14 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.38.4",
-    "@unocss/nuxt": "^0.50.7",
-    "eslint": "^8.38.0",
-    "gitmoji-cli": "^8.0.0",
-    "nuxt": "^3.3.3",
+    "@antfu/eslint-config": "^0.38.5",
+    "@formkit/nuxt": "next",
+    "@formkit/themes": "next",
+    "@types/node": "^18",
+    "@unocss/nuxt": "^0.51.6",
+    "eslint": "^8.39.0",
+    "gitmoji-cli": "^8.1.1",
+    "nuxt": "^3.4.2",
     "typescript": "^5.0.4"
   }
 }

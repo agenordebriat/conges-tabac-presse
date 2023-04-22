@@ -1,5 +1,3 @@
 export default defineNuxtConfig({
-  modules: [
-    "@unocss/nuxt",
-  ],
+  modules: ["@formkit/nuxt", "@unocss/nuxt"],
 })
