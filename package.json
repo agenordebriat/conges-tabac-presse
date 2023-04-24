@@ -1,7 +1,7 @@
 {
   "name": "nuxt-app",
   "private": true,
-  "packageManager": "pnpm@8.1.1",
+  "packageManager": "pnpm@8.3.1",
   "engines": {
     "node": "18.16.0"
   },
@@ -18,9 +18,12 @@
     "@antfu/eslint-config": "^0.38.5",
     "@formkit/nuxt": "next",
     "@formkit/themes": "next",
-    "@types/node": "^18",
-    "@unocss/nuxt": "^0.51.6",
+    "@types/node": "^18.16.0",
+    "@unocss/eslint-config": "^0.51.8",
+    "@unocss/nuxt": "^0.51.8",
     "@unocss/reset": "^0.51.8",
+    "@unocss/transformer-directives": "^0.51.8",
+    "@unocss/transformer-variant-group": "^0.51.8",
     "eslint": "^8.39.0",
     "gitmoji-cli": "^8.1.1",
     "nuxt": "^3.4.2",

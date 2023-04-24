@@ -1,5 +1,5 @@
 {
-  "extends": ["@antfu"],
+  "extends": ["@antfu", "@unocss"],
   "rules": {
     "@typescript-eslint/quotes": ["error", "double"],
     "unused-imports/no-unused-vars": ["error", { "ignoreRestSiblings": true }],
